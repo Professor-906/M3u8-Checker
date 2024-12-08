@@ -39,7 +39,7 @@ A simple and efficient tool for validating **M3U8 links**. This project allows u
 - **process.php**: PHP backend that processes the playlist URL, checks the status of channels, and returns the results.
 - **style.css**: Styling for the responsive, dark-themed interface.
 - **app.js**: JavaScript to handle user interactions like checking the playlist and downloading files.
-**downloads/**: Folder where the live and dead channel lists are saved.
+- **downloads/**: Folder where the live and dead channel lists are saved.
 - **README.md**: Documentation of the project.
 ---
 
