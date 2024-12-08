@@ -1,62 +1,65 @@
-# M3U Playlist Checker  
+# M3U Playlist Checker
 
-A simple and efficient tool for validating **M3U8 links**. This project is designed for quick and accurate link checking with a modern user interface.  
+A simple and efficient tool for validating **M3U8 links**. This project allows users to check the status of M3U playlist links, determine if they are live or dead, and download the results.
 
 ---
 
-## 🚀 Features  
+## 🚀 Features
 
 - **M3U8 Link Validation**:  
-  Easily checks if an M3U8 link is active or broken.  
+  Checks if M3U playlist links are active or dead.
+  
+- **Live/Dead Channel Separation**:  
+  Displays live and dead channels separately.
+  
+- **Download Options**:  
+  Allows downloading of live and dead channels in `.txt` format.
+  
+- **Security Features**:  
+  - Right-click is disabled to prevent copying of code.  
+  - Source code viewing is restricted with custom messages.
 
-- **Loading Animation**:  
-  Displays a spinner animation while validating links for improved user feedback.  
-
-- **Modern UI Design**:  
-  Responsive and visually appealing dark theme layout.  
-
-- **Security Enhancements**:  
-  - Right-click disabled to protect the code.  
-  - Prevents source code viewing with custom error messages.  
-
-- **Footer Information**:  
-  Includes copyright and creator details for attribution.  
-
----
-
-## 🛠️ Technologies Used  
-
-- **HTML5**: For structure and content organization.  
-- **CSS3**: For styling, animations, and responsive design.  
-- **JavaScript**: For link validation and dynamic functionalities.  
+- **Modern UI**:  
+  Responsive dark theme with a clean user interface.
 
 ---
 
-## 📂 Project Structure  
+## 🛠️ Technologies Used
 
-- **index.html**: Main page for M3U8 link checking.  
-- **styles.css**: Styling for the dark theme and animations.  
-- **script.js**: JavaScript logic for validation and dynamic updates.  
-
----
-
-## 📸 Screenshots  
-
-### Main Interface  
-![Main Interface](screenshot1.png)  
-
-### Validation in Progress  
-![Validation in Progress](screenshot2.png)  
+- **HTML5**: For structuring the content and layout.
+- **CSS3**: For styling and animations.
+- **JavaScript**: For dynamic interactivity and fetching the playlist data.
+- **PHP**: For processing and validating the M3U playlist links.
 
 ---
 
-## 📞 Contact  
+## 📂 Project Structure
+
+- **index.php**: Main file containing the front-end UI and basic structure.
+- **process.php**: PHP backend that processes the playlist URL, checks the status of channels, and returns the results.
+- **style.css**: Styling for the responsive, dark-themed interface.
+- **app.js**: JavaScript to handle user interactions like checking the playlist and downloading files.
+**downloads/**: Folder where the live and dead channel lists are saved.
+- **README.md**: Documentation of the project.
+---
+
+## 📸 Screenshots
+
+### Main Interface
+![Main Interface](screenshot1.png)
+
+### Validation in Progress
+![Validation in Progress](screenshot1.png)
+
+---
+
+## 📞 Contact
 
 **Creator**: [Professor](https://t.me/professor906)  
-**Email**: tfl906.bd@gmail.com  
+**Email**: tfl906.bd@gmail.com
 
 ---
 
-## 📜 License  
+## 📜 License
 
-This project is licensed under the MIT License.  
+This project is licensed under the MIT License.
